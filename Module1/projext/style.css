@@ -1,0 +1,42 @@
+*{
+   margin: 0.5rem;
+}
+header{
+    display: flex;
+    font-size: 30px;
+    justify-content: space-between;
+
+}
+
+ul{
+    display: flex;
+    /* width: 400px; */
+    justify-content: space-evenly;
+    list-style: none;
+    font-size: xx-large;
+}
+li:hover{
+    cursor: pointer;
+    color: red;
+}
+nav{
+    width: 60vw;
+}
+img.bigimg{
+    width: 95vw;
+    
+}
+div.container{
+    display: flex;
+}
+.container>div{
+  text-align: center;
+  margin:2rem;
+}
+h1{
+    font-weight: normal;
+}
+.container>div>p{
+    font-size: x-large;
+    line-height: 2rem;
+}
